@@ -1,0 +1,15 @@
+body{
+    background-image: url(https://sp.senai.br/images/senai.svg);
+    /* background-size: 20%; */
+    /* background-repeat: repeat-y; (repete só na linha y) */
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+h1{
+    background-color: aqua;
+    border-style: double;
+}
+h2{
+    background-color: darkorange;
+}
