@@ -1,0 +1,37 @@
+body{
+    background-image: url('../imagens/capacete-ayrton-senna-senna.jpg');
+    /* a imagem cobre toda a area visivel do body, mesmo que seja intriscicamente nescessario remover una parte */
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    text-shadow: rgb(255, 0, 0) 1px 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gold;
+    border: red solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.img{
+    border: 15px solid white;
+    box-shadow: 3px 3px red;
+    /* largura da altura e porcentagem do elemento pai */
+    width: 20%;
+    height: 20%;
+    position: relative;
+    transition: linear 0.25s;
+}
+
+.rot1{
+    transform: rotate(5deg);
+}
+.rot2{
+    transform: rotate(-5deg);
+}
+
+.img:hover{
+    transform: rotate(0deg) scale(1.5);
+}
